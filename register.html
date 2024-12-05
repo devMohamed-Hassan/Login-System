@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="group">
+            <img src="./images/profile_11186790.gif" alt="" class="icon bg-light">
+            <h1 class="mb-4">Sign Up</h1>
+        </div>
+        <form id="signupForm">
+            <!-- Name Input -->
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                <input id="signupName" type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <!-- Email Input -->
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                <input id="signupEmail" type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <!-- Password Input -->
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                <input id="signupPassword" type="password" class="form-control" placeholder="Enter your password"
+                    required>
+            </div>
+            <!-- Error Message -->
+            <p id="exist" class="text-danger"></p>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100 mb-3">Sign Up</button>
+            <!-- Sign In Link -->
+            <p class="text-white">Already have an account? <a href="index.html"
+                    class="text-warning text-decoration-none">Sign In</a></p>
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

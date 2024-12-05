@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./images/man.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="group">
+            <img src="./images/profile_11186790.gif" alt="" class="icon rounded-circle border border-white bg-light">
+            <h1 class="mb-4">Login</h1>
+        </div>
+        <form id="signinForm">
+            <!-- Email Input -->
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                <input id="signinEmail" type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <!-- Password Input -->
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                <input id="signinPassword" type="password" class="form-control" placeholder="Enter your password" required>
+            </div>
+            <!-- Error Message -->
+            <p id="incorrect" class="text-danger"></p>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
+            <!-- Sign Up Link -->
+            <p class="text-white">Don’t have an account? 
+                <a href="register.html" class="text-warning text-decoration-none">Sign Up</a>
+            </p>
+        </form>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
